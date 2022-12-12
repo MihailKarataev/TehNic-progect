@@ -12,6 +12,7 @@
         <header class="header">
             <div class="header__topbar">
                 <a href="/" class="logo"></a>
+                <!--main menu -->
                 <nav class="header__topmenu">
                     <ul>
                         <li><a href="#">О компании</a></li>
@@ -19,15 +20,17 @@
                         <li><a href="#">Контракты</a></li>
                     </ul>
                 </nav>
+                <!--END main menu -->
                 <div class="header__contacts">
                     <div class="header__email">Infohome@yahoo.com</div>
                     <div class="heade__phone">
                         <div class="header__phone__description">Звоните нам</div>
-                        <div class="header__phone__number">+7(351)283 28 47</div>
+                        <div class="header__phone__number">+7 (351) 283 28 47</div>
                     </div>
                 </div>
             </div>
             <div class="header__downbar">
+                <!--list of technique -->
                 <div class="header__machinery">
                     <a href="#" class="header__mini-loader"></a>
                     <a href="#" class="header__front-loader"></a>
@@ -38,24 +41,30 @@
                     <a href="#" class="header__forklift"></a>
                     <a href="#" class="header__truck-crane"></a>
                 </div>
+                <!--END list of technique -->
             </div> 
             <div class="slider__wrapper">
+                <!--menu of slider-->
                 <div class="slider__menu">
                     <a href="#" class="slider__menu-rent">Аренда</a>
                     <a href="#" class="slider__menu-service">Сервис</a>
                     <a href="#" class="slider__menu-spares">Запчасти</a>
                     <a href="#" class="slider__menu-financy">Финансовые решения</a>
                 </div>
+                <!--END menu of slider-->
                 <div class="slider">
+                    <!--slider content -->
                     <div class="slider__item">
                         <img class="slider__item-image" src="<?php echo get_template_directory_uri(); ?>/images/slide.jpg">
                         <div class="slider__item-description">
                             Уникальное спецпредложение!
                         </div>
                     </div>
+                    <!--END slider content -->
                 </div>
             </div>
         </header>
+        <!--content page -->
         <div class="content">
             <div class="content__news">
                 <div class="news__title">Новости:</div>
@@ -91,21 +100,27 @@
                 </div>
             </div>
         </div>
-    
+        <!--END content page-->
+
+        <!--logo partners -->
+        <div class="footer__partners">
+            <div class="partners__logo partners__mcclockey"></div>
+            <div class="partners__logo partners__terex"></div>
+            <div class="partners__logo partners__ddieci"></div>
+            <div class="partners__logo partners__hanix"></div>
+            <div class="partners__logo partners__avant"></div>
+            <div class="partners__logo partners__mustang"></div>
+            <div class="partners__logo partners__hanix"></div>
+        </div>
+        <!--END logo partners -->
+
+        <!--footer -->
         <footer class="footer">
-            <div class="footer__partners">
-                <div class="partners__logo partners__mcclockey"></div>
-                <div class="partners__logo partners__terex"></div>
-                <div class="partners__logo partners__ddieci"></div>
-                <div class="partners__logo partners__hanix"></div>
-                <div class="partners__logo partners__avant"></div>
-                <div class="partners__logo partners__mustang"></div>
-                <div class="partners__logo partners__hanix"></div>
-            </div>
             <div class="footer__content">
                 <div class="footer__copyright">© 2022 Copyright</div>
             </div>
         </footer>
+        <!--END footer -->
     </div>
 </body>
 </html>
