@@ -140,7 +140,7 @@ Author: Mihail
     font-size: 20px;
     line-height: 1.3em;
     color: #fff;
-    background: #5a5a5a61;
+    background-color: #5a5a5a61;
 }
 .content {
     display: grid;
@@ -171,10 +171,6 @@ Author: Mihail
     text-transform: uppercase;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-}
 .footer__partners {
     display: flex;
     gap: 0 10px;
@@ -221,7 +217,7 @@ Author: Mihail
 
 .footer__content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 100px;
     width: 100%;
     background: #5a5a5a;
