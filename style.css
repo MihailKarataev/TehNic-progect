@@ -221,7 +221,7 @@ Author: Mihail
 
 .footer__content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 100px;
     width: 100%;
     background: #5a5a5a;
